@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 :root {
     --black: #2E363E;
     --btn: #FED84C;
@@ -41,12 +40,11 @@ ul {
 .btn {
     max-width: 166px;
     width: 100%;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 4px;
     border: 1px solid #000;
-    background: var(--orange);
-    display: block;
+    background: var(--btn);
     text-align: center;
     font-family: var(--Roboto);
     font-size: 14px;
@@ -58,21 +56,48 @@ ul {
 
 .btn:hover {
     background-color: var(--blue-dark);
-    color: var(--white);
+    color: var(--black);
+    color: var(--btn);
 }
 
 /* BTN */
 
 /* HEADER */
 
+.berry-1 {
+    position: absolute;
+    top: 75px;
+}
+
+.berry-2 {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.berry-3 {
+    position: absolute;
+    top: 700px;
+}
+
+.berry-4 {
+    position: absolute;
+    top: 690px;
+    left: 1100px;
+}
+
 .site-header {
     width: 100%;
     height: 82px;
+    padding-top: 15px;
 }
 
 .d-flex {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.077);
+
 }
 
 .header-text {
@@ -80,6 +105,7 @@ ul {
     height: 31px;
     font-size: 20px;
     font-weight: 400;
+    color: var(--text);
 }
 
 .addrees {
@@ -88,12 +114,14 @@ ul {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    margin-left: 180px;
+    margin-left: 500px;
     column-gap: 5px;
+    color: var(--text);
 }
 
 .addrees-icon {
-    color: #FFFFFF;
+    margin: 5px;
+    color: var(--text);
 }
 
 
@@ -105,7 +133,7 @@ ul {
 
 .phone-icon {
     display: inline;
-    color: #FFFFFF;
+    color: var(--text);
 }
 
 .header-phone {
@@ -113,13 +141,160 @@ ul {
     font-weight: 400;
     align-items: center;
     display: inline;
-    color: #FFFFFF;
+    color: var(--text);
 }
 
 .time {
     display: block;
     text-align: end;
     font-size: 14px;
+    color: var(--text);
 }
 
+
+
 /* HEADER */
+
+
+/* HERO */
+
+.hero-img {
+    width: 100%;
+    position: absolute;
+}
+
+.site-hero {
+    width: 100%;
+    height: 870px;
+    position: relative;
+}
+
+.site-hero__content {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    height: 80vh;
+}
+
+.hero-title {
+    color: var(--text);
+    font-size: 48px;
+    font-weight: 700;
+    width: 550px;
+    text-align: justify;
+}
+
+.hero-text {
+    width: 400px;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text);
+    text-align: justify;
+}
+
+.span-text {
+    width: 110px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+
+/* HERO */
+
+
+/* MENU */
+
+.menu-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.menu-card {
+    width: 380px;
+    height: 502px;
+    box-shadow: 2px 8px 16px 0px #1042c10f;
+}
+
+.site-menu {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+}
+
+
+.menu-title {
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.menu-img {
+    width: 380px;
+    height: 245px;
+}
+
+.menu-text {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.menu-desc {
+    width: 230px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.menu-berry-1 {
+    position: absolute;
+    left: 35px;
+    top: 170px;
+}
+
+.menu-berry-2 {
+    position: absolute;
+    top: 800px;
+    right: 0;
+}
+
+.menu-berry-3 {
+    position: absolute;
+    top: 1200px;
+    left: 70px;
+}
+
+
+
+
+
+
+/* MENU */
