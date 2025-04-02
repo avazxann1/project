@@ -43,7 +43,6 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 4px;
-    border: 1px solid #000;
     background: var(--btn);
     text-align: center;
     font-family: var(--Roboto);
@@ -361,12 +360,69 @@ ul {
     top: 260px;
     left: 240px;
 }
+
 .main-berry-2 {
     position: absolute;
     right: 60px;
     top: 180px;
 }
 
+.site-nav {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-text {
+    width: 580px;
+    height: 637px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 200px;
+
+}
+
+.text-h1 {
+    width: 480px;
+    height: 180px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #2E363E;
+}
+
+.text-p {
+    width: 438px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Montserrat;
+    padding-bottom: 50px;
+}
+
+.nav-img-1 {
+    position: relative;
+    width: 580px;
+    height: 804px;
+}
+
+.nav-img-2 {
+    position: absolute;
+    top: 100px;
+    right: 380px;
+}
+
+.nav-img-3 {
+    position: absolute;
+    top: 550px;
+    right: 380px;
+}
+
+.nav-img-4 {
+    position: absolute;
+    top: 140px;
+    left: 14px;
+}
 
 
 
